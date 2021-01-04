@@ -1,0 +1,9 @@
+.project-icon {
+    font-size: 2rem;
+    color: $super-light-gray;
+    align-self: center;
+    &:hover {
+        color: darken($super-light-gray, 10%);
+    }
+}
+

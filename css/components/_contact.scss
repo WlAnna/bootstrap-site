@@ -1,0 +1,42 @@
+
+/*Contact*/
+.contact {
+    padding: 0 0 3rem 0;
+    background-image: url('./images/shapes2.jpg');
+    background-size: cover;
+    background-position: 50% 35%;
+    height: auto;
+    background-repeat: no-repeat;  
+}
+
+.contact-heading {
+    font-size: $size-M;
+    padding: 3rem 0 1rem 0;
+}
+
+.contact-left {
+    width: 92%;
+}
+
+.contact-img {
+  padding: 2rem .8rem 0 .8rem;
+}
+
+.form-control-label{
+	margin-bottom: .1rem;
+	font-size: $size-XS;
+	color: $gray;
+}
+
+.contact-left p {
+    line-height: 1.5rem;
+}
+
+form textarea {
+    margin-bottom: 1rem;
+}
+
+button.btn.btn-success {
+    padding: .4rem 3rem;
+    margin-top: 1.7rem;  
+}

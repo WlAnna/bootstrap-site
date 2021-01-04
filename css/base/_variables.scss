@@ -1,0 +1,31 @@
+/* My Colors*/
+$main-color: #0F274B;
+$main-blue: #2980b9;
+$main-blue-darken: #002a53;
+$main-orange: #e67e22;
+$main-orange1: #F0B733;
+$main-orange2: #f3c55b;
+$gray: #999999;
+$light-gray: #777777;
+$super-light-gray:  #e1e1e1;
+$light-orange: #fefcf8;
+$light-blue: #e6eef5;
+$lighter-blue: #fbfcfd;
+$size-XS: .8rem;
+$size-S: 1.2rem;
+$size-M: 1.5rem;
+$size-L: 2.5rem;
+$size-XL: 3.9rem;
+$size-XXL: 4.8rem;
+
+/*Override botrtrap custom scss styles*/
+$theme-colors: (
+    "primary": $main-blue,
+    "primary-darken": $main-blue-darken,
+    "warning": $main-orange1,
+    "success":  $main-orange1,
+);
+
+$border-radius: .2rem;
+$line-height-base: 1.75;
+$jumbotron-padding: 6rem;

@@ -1,0 +1,49 @@
+/*Footer*/
+.footer-container {
+	padding: 5rem 0 10px;
+	font-size: .9rem;
+}
+
+.footer-heading {
+    padding-bottom: .3rem;
+}
+
+.footer-container h4 {
+    font-size: $size-S;
+}
+
+.footer-first-col {
+    padding-right: .5rem;
+}
+
+.footer-first-col li i {
+	margin-right: .75rem;
+}
+
+.footer-second-col li span {
+	margin-right: .75rem;
+}
+
+.footer-second-col li {
+	padding: 1rem 0;
+	width: 77%;
+    border-bottom: 1px solid $light-gray;
+    margin-left: .5rem;
+}
+
+.footer-second-col li:last-child {
+	border-bottom: none;
+}
+
+.footer-second-col li:first-child {
+	padding-top: 0;
+}
+
+.social-box {
+    @include size(26px, 26px);
+}
+
+.icons span a {
+    color: white;
+}
+

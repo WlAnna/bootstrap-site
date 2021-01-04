@@ -1,0 +1,73 @@
+/*News*/
+.news h2 {
+    padding: 4rem 0 3rem 0;
+}
+
+.news {
+    background-color: $lighter-blue;
+	padding-bottom: 3rem;
+	position: relative;
+}
+
+.news-date {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	border-radius: .2rem;
+	@include size(75px, 75px);
+	@include media-breakpoint-up(md) {
+		@include size(95px, 95px);
+	}
+}
+
+.news-date-body {
+	max-width: 90%;
+	@include media-breakpoint-up(md) {
+		max-width: 45%;
+	}
+}
+
+.news-date-value {
+	margin-top: .3rem;
+	font-size: .625rem;
+
+}
+
+.news-post-body {
+	position: relative;
+	padding: 10px 0 0 10px;
+}
+
+.news-post-content {
+	position: absolute;
+	top: 30%;
+	right: 0;
+	bottom: 5px;
+	left: 15px;
+	padding: 20px 30px;
+	&:after {
+        @include bg-overlay( $main-blue-darken, .4 )
+	}
+	@include media-breakpoint-up(md) {
+		top: 50%;
+	} 
+}
+
+.news-post-content-inner {
+	@include zindex;
+}
+
+.news-post-title {
+	font-size: 1.375rem;
+	margin-bottom: .85rem;
+}
+
+.news-post-text {
+	margin-bottom: .3rem;
+	line-height: 1.66;
+}
+
+.news-post-link {
+	font-size: .625rem;
+}

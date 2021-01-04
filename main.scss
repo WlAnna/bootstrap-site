@@ -1,0 +1,23 @@
+@import "css/base/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "css/base/mixins";
+@import "css/base/global";
+
+@import "css/components/nav";
+@import "css/components/top";
+@import "css/components/vision";
+@import "css/components/introduction";
+@import "css/components/sectors";
+@import "css/components/portfolio";
+@import "css/components/testimonials";
+
+@import "css/components/footer";
+@import "css/components/news";
+@import "css/components/contact";
+
+
+@import "css/pages/about";
+@import "css/pages/projects";
+@import "css/pages/project";
+

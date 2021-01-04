@@ -1,0 +1,28 @@
+/*Introduction*/
+.introduction {
+    padding-bottom: 4rem;
+    background-color: $light-orange;
+}
+
+.introduction-title {
+    padding: 4rem 0 $size-XL 0 ;
+}
+
+.introduction-item-title {
+    background-color: $main-orange2;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-left: 36%;
+    padding-top: 3.6rem;
+    font-size: $size-S;
+    color: white;
+    @include media-breakpoint-up(md) {
+        margin-left: 29%;
+        padding-top: 3.7rem;
+    }
+}
+
+.introduction-item p {
+    padding: $size-M 0 0 0rem;
+}

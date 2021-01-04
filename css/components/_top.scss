@@ -1,0 +1,43 @@
+.top {
+    position: relative;
+    margin-bottom: 0;
+    background-image: url('./images/image_4v3.jpg');
+    background-color: $main-blue-darken;
+    background-size: cover;
+    background-position: 50% 10%;
+    height: auto;
+    background-repeat: no-repeat;
+    &:after {
+        @include bg-overlay( $main-blue-darken, .5 )
+    }
+}
+
+.top-content {
+    @include zindex;
+}
+
+.top-heading {
+    font-size: $size-XL;
+}
+
+.top-heading::after {
+    font-family: FontAwesome;
+    content: "\f111";
+    font-size: .5rem;
+}
+
+.top-subheading {
+    font-size: $size-M;
+}
+
+button.btn.btn-info {
+    margin-top: 1rem;
+    padding: .6rem 3rem;
+    background-color: $main-blue;
+    border-color: $main-blue;
+}
+
+.contact-image {
+    width: 140px;
+    height: 400px;
+}

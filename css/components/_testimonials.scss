@@ -1,0 +1,32 @@
+/*testimonials*/
+.testimonial {
+    background-color: $lighter-blue;
+}
+
+.testimonial-header {
+    padding-top: 4rem;
+}
+
+.carousel-item p::before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    margin: .5rem;
+    font-size: 1.5rem;
+    color: $main-orange;
+}
+
+.carousel-item {
+    height: 10rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+cite {
+    padding-left: .5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    filter: invert(.5);
+    padding-bottom: 5rem;
+}

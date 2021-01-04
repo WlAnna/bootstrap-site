@@ -1,0 +1,18 @@
+/*Global styles*/
+
+body {
+    color: $main-color;
+}
+
+.global-hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid $super-light-gray;
+    margin:1em 0;
+    padding:0 0 1rem 0;
+}
+
+.global-video-text {
+    font-size: $size-XS;
+}

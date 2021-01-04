@@ -1,0 +1,23 @@
+.about {
+    padding: 4rem 0 4rem;
+}
+
+.about-title {
+    border-bottom: 1px solid $super-light-gray;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.top-about {
+    position: relative;
+    margin: 0;
+    background-image: url('./images/image_34.jpg');
+    background-color: $main-blue-darken;
+    background-size: cover;
+    background-position: 0 48%;
+    height: auto;
+    background-repeat: no-repeat;
+    &:after {
+        @include bg-overlay( $main-blue-darken, .5 )
+    }
+}

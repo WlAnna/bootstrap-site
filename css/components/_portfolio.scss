@@ -1,0 +1,21 @@
+/*Portfolio*/
+
+.portfolio {
+    margin-bottom: 5.5rem;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 2rem;
+	}
+}
+.portfolio h2 {
+    padding: 4rem 0 3rem 0;
+}
+
+.portfolio h3 {
+    font-size: $size-S;
+    padding: 1.4rem 0 0 0;
+}
+
+.portfolio p {
+    padding: .7rem 0 ;
+}
+
